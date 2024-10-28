@@ -28,7 +28,7 @@ def main():
         st.success(f"You are {result} for the loan.")
 
 #Load the train model
-with open('C:\\Users\\Prasad\\ML Project\\Loan Prediction\\train_model.pkl','rb') as pkl:
+with open('train_model.pkl','rb') as pkl:
     train_model = pickle.load(pkl)
 
 def predict(gender, married, dependent, education, self_employed, applicant_income,
