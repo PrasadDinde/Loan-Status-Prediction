@@ -28,7 +28,7 @@ def main():
         st.success(f"You are {result} for the loan.")
 
 #Load the train model
-with open('train_model.pkl','rb') as pkl:
+with open('https://github.com/PrasadDinde/Loan-status-prediction/blob/5901e5f08f9f66bf22a725623be9ae42fbca24dd/train_model.pkl','rb') as pkl:
     train_model = pickle.load(pkl)
 
 def predict(gender, married, dependent, education, self_employed, applicant_income,
